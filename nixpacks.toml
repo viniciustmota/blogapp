@@ -1,2 +1,0 @@
-[phases.setup]
-nodejs = pkgs.nodejs-18_x;
