@@ -123,12 +123,12 @@
     app.use('/admin', admin)
     app.use("/usuarios", usuarios)
 // Outros
-    const PORT = process.env.PORT || 8081
+    const PORT = process.env.PORT || 8081;
     try {
-        app.listen(PORT, () =>{
-            console.log(`Servidor rodando em: http://localhost:${PORT}`);
+        app.listen(PORT, () => {
+            console.log(`Servidor rodando em: http://0.0.0.0:${PORT}`);
         })
-    }catch(err) {
+    } catch (err) {
         console.log(`Servidor não iniciado: ${err}`);
-        
     }
+
